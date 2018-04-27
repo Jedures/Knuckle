@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{DBD9FAE8-1AEF-8505-3FD7-9AF834776965}|">
+  <MonoDevelop.Ide.ItemProperties.Knuckle PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/AiController.cs">
+    <Files>
+      <File FileName="Assets/_scripts/AiController.cs" Line="9" Column="23" />
+      <File FileName="Assets/_scripts/PlayerModule/PlayerController.cs" Line="32" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -51,9 +51,9 @@ public class PlayerController : MonoBehaviour
     {
 		if (collision.collider.CompareTag ("Weapon")) {
 			Death ();
-		} else if (collision.collider.CompareTag ("Item1")) {
+		} else if (collision.collider.CompareTag ("Score")) {
 			score += 5;
-		} else if (collision.collider.CompareTag ("Item2")) {
+		} else if (collision.collider.CompareTag ("Score2")) {
 			score += 10;
 		}
 

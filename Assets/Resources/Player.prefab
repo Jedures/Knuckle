@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4950435974574932}
   - component: {fileID: 212446043743333140}
-  - component: {fileID: 65166739583075892}
+  - component: {fileID: 61593465216622524}
   m_Layer: 0
   m_Name: WeaponObjSprite
   m_TagString: Weapon
@@ -138,18 +138,31 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.62
---- !u!65 &65166739583075892
-BoxCollider:
+--- !u!61 &61593465216622524
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1204787086410758}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.16, y: 0.16}
+  m_EdgeRadius: 0
 --- !u!114 &114607380868714954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,9 +174,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c57bd76071bf441b829af7461656318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 5
+  MoveSpeed: 3
+  MoveSpeedBoost: 10
+  MoveSpeedDefault: 5
   Drag: 0.5
+  speed_rotation: 0.1
   joystick: {fileID: 0}
+  score: 0
+  boostTime: 100
 --- !u!212 &212383206311217578
 SpriteRenderer:
   m_ObjectHideFlags: 1

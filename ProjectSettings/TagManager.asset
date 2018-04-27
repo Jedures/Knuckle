@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Weapon
+  - Score
+  - Score2
   layers:
   - Default
   - TransparentFX

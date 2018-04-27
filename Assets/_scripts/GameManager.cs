@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
@@ -15,9 +14,9 @@ public class GameManager : MonoBehaviour {
 		else
 			Destroy (gameObject);
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		players.AddRange (GameObject.FindGameObjectsWithTag("Player"));
 	}
 }
