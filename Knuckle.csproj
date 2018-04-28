@@ -258,6 +258,7 @@
   <ItemGroup>
     <Compile Include="Assets\_scripts\AiController.cs" />
     <Compile Include="Assets\_scripts\BattleManager.cs" />
+    <Compile Include="Assets\_scripts\CameraController.cs" />
     <Compile Include="Assets\_scripts\GameManager.cs" />
     <Compile Include="Assets\_scripts\JoystickController.cs" />
     <Compile Include="Assets\_scripts\Loading.cs" />

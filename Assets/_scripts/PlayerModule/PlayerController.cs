@@ -49,14 +49,24 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-		if (collision.collider.CompareTag ("Weapon")) {
-			Death ();
-		} else if (collision.collider.CompareTag ("Score")) {
-			score += 5;
-		} else if (collision.collider.CompareTag ("Score2")) {
-			score += 10;
-		}
+        if (collision.collider.CompareTag("Weapon"))
+        {
+            Death();
+        }
+    }
 
+    private void OnTriggerEnter2D(Collider2D collider2d)
+    {
+        if (collider2d.CompareTag("Score"))
+        {
+            score += 5;
+            Destroy(collider2d.gameObject);
+        }
+        else if (collider2d.CompareTag("Score2"))
+        {
+            score += 10;
+            Destroy(collider2d.gameObject);
+        }
     }
 
     private void Death()
